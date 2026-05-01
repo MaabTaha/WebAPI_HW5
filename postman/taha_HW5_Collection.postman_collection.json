@@ -123,7 +123,7 @@
           }
         ],
         "url": {
-          "raw": "https://webapi-hw5.onrender.com/69e454dfb7843425b05383d8",
+          "raw": "https://webapi-hw5.onrender.com/movies/69e4f1281d62076e6c0bf37c",
           "protocol": "https",
           "host": [
             "webapi-hw5",
@@ -131,7 +131,8 @@
             "com"
           ],
           "path": [
-            "69e454dfb7843425b05383d8"
+            "movies",
+            "69e4f1281d62076e6c0bf37c"
           ]
         }
       },
@@ -181,7 +182,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"title\": \"Toy Story\",\r\n  \"releaseDate\": 1995,\r\n  \"genre\": \"Adventure\",\r\n  \"actors\": [\r\n    {\r\n      \"actorName\": \"Tom Hanks\",\r\n      \"characterName\": \"Woody\"\r\n    },\r\n    {\r\n      \"actorName\": \"Tim Allen\",\r\n      \"characterName\": \"Buzz Lightyear\"\r\n    }\r\n  ]\r\n}",
+          "raw": "{\r\n  \"title\": \"Toy Story\",\r\n  \"releaseDate\": 1995,\r\n  \"genre\": \"Adventure\",\r\n  \"actors\": [\r\n    {\r\n      \"actorName\": \"Tom Hanks\",\r\n      \"characterName\": \"Woody\"\r\n    },\r\n    {\r\n      \"actorName\": \"Tim Allen\",\r\n      \"characterName\": \"Buzz Lightyear\"\r\n    }\r\n  ],\r\n  \"imageUrl\": \"https://picsum.photos/600/400\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -189,10 +190,10 @@
           }
         },
         "url": {
-          "raw": "https://webapi-hw4-taha.onrender.com/movies",
+          "raw": "https://webapi-hw5.onrender.com/movies",
           "protocol": "https",
           "host": [
-            "webapi-hw4-taha",
+            "webapi-hw5",
             "onrender",
             "com"
           ],
@@ -224,7 +225,7 @@
           }
         },
         "url": {
-          "raw": "https://webapi-hw5.onrender.com/signup",
+          "raw": "https://webapi-hw5.onrender.com/movies/69e454dfb7843425b05383d8",
           "protocol": "https",
           "host": [
             "webapi-hw5",
@@ -232,7 +233,8 @@
             "com"
           ],
           "path": [
-            "signup"
+            "movies",
+            "69e454dfb7843425b05383d8"
           ]
         }
       },
@@ -251,7 +253,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"title\": \"WALL-E\",\r\n  \"releaseDate\": 2008,\r\n  \"genre\": \"Science Fiction\",\r\n  \"actors\": [\r\n    {\r\n      \"actorName\": \"Ben Burtt\",\r\n      \"characterName\": \"WALL-E\"\r\n    },\r\n    {\r\n      \"actorName\": \"Elissa Knight\",\r\n      \"characterName\": \"EVE\"\r\n    }\r\n  ]\r\n}",
+          "raw": "{\r\n  \"title\": \"WALL-E Part 2\",\r\n  \"releaseDate\": 2008,\r\n  \"genre\": \"Science Fiction\",\r\n  \"actors\": [\r\n    {\r\n      \"actorName\": \"Ben Burtt\",\r\n      \"characterName\": \"WALL-E\"\r\n    },\r\n    {\r\n      \"actorName\": \"Elissa Knight\",\r\n      \"characterName\": \"EVE\"\r\n    }\r\n  ]\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -291,7 +293,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"movieId\": \"69e4f1281d62076e6c0bf37c\",\r\n  \"review\": \"hilarious\",\r\n  \"rating\": 5\r\n}",
+          "raw": "{\r\n  \"movieId\": \"69f11ec53f5d29003eefb47e\",\r\n  \"review\": \"Lovely!\",\r\n  \"rating\": 4\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -480,6 +482,27 @@
           ],
           "path": [
             "reviews"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "SearchMovie",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://webapi-hw5.onrender.com/movies/search",
+          "protocol": "https",
+          "host": [
+            "webapi-hw5",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "movies",
+            "search"
           ]
         }
       },
