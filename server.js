@@ -360,6 +360,9 @@ router.get('/movies/:id', authJwtController.isAuthenticated, async (req, res) =>
   }
 });
 
+
+
+
 app.use('/', router);
 
 const PORT = process.env.PORT || 8080; // Define PORT before using it
